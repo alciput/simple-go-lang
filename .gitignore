@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+/app
+app
+
+# Test & coverage
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go module cache (when GOPATH is unset)
+pkg/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# SQLite
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE
+.idea/
+.vscode/
+
+# Local notes
+context.md
